@@ -1,4 +1,4 @@
-const prompt = require("prompt-sync")();
+//1
 
 /*let n = +prompt("Donner un nombre: ");
 let count = 0;
@@ -16,7 +16,7 @@ console.log(count);
 console.log(tab);*/
 
 
-
+//2
 /*let n = parseInt(prompt("entrer un nombre"));
 for (let i=1 ;i<=n;i++){
 
@@ -38,7 +38,7 @@ for (let i=1 ;i<=n;i++){
 }*/
 
 
-
+//3
 /*let tab = [ 1, 2, 2, 3, 4, 4, 5];
 
   let nouveautable = [];
@@ -51,7 +51,7 @@ for (let i=1 ;i<=n;i++){
 
    console.log (nouveautable);*/
 
-
+//4
    /*let table = [2, 4, 6, -3, 5, 7] ;
    let somme = 0;
    for (let i=0;i<table.length;i++){
@@ -63,14 +63,16 @@ for (let i=1 ;i<=n;i++){
 console.log (somme);*/
 
 
-
+//5
 /*let tabl = [1, 2, 3];
 for (let i=tabl.length-1;i>=0;i--){
     tabl.push(tabl[i])
 }
 console.log(tabl);*/
 
-let tab = ["a", "e", "i", "o", "u"];
+
+//6
+/*let tab = ["a", "e", "i", "o", "u"];
 let mots = "developpement"
  let count = 0 ;
 for (let i = 0; i < mots.length; i++){
@@ -82,5 +84,16 @@ for (let j = 0; j < tab.length; j++){
     }
 }
 }
-console.log(count);
+console.log(count);*/
+
+//10
+
+/*let tabl = [0,0,1,1,1,0,1,0,1,0];
+let count = 0;
+for (let i=0;i<tabl.length;i++){
+    if(tabl[i]===0){
+        count++;
+    }
+}
+console.log (count);*/
 
